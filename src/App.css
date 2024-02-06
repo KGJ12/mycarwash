@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+.container{
+    width: 100%;
+    background: linear-gradient(to top left,#04CBFB,#fff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.5rem;
+    border-bottom: 10px solid #fff;
+}
+.logo{
+    width:20%;
+    padding: 0px 10px;
+}
+.logo .carwash-logo{    
+    width:90%;
+}
+ul.navbar{
+    width:80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar>li>a{
+    text-decoration: none;
+    color:#1d2a9d;
+    font-size:1.5rem;
+    font-style:unset;
+    word-break: break-all;
+    transition: .2s;
+    font-weight:600;
+}
+.navbar>li>a:hover{
+    color:#fff;
+}
